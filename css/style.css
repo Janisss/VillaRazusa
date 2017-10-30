@@ -108,32 +108,8 @@ nav p {
   clip-path: polygon(100% 0, 100% 20%, 100% 80%, 100% 20%);
   background: red;
 }
-.first-left {
-	width: 100%;
-    min-height: 100px;
-    margin: 0 0 0 -40px;
-    -webkit-transform: skew(-20deg);
-       -moz-transform: skew(-20deg);
-         -o-transform: skew(-20deg);
-    background: #b7b7b7;
-    overflow:hidden;
-    position:relative;
-}
 
-.cover-me {
-	width:50%;
-	overflow: hidden;
-}
 
-.custom-padding {
-	padding: 10px;
-	margin-left: 80px;
-	margin-top: 15px;
-	margin-right: 35px;
-	color: white;
-	font-style: italic;
-	font-weight: 200;
-	-webkit-transform: skew(20deg);
-       -moz-transform: skew(20deg);
-         -o-transform: skew(20deg);
+.gray{
+	background: #b7b7b7;
 }
