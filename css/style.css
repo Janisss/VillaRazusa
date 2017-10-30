@@ -112,4 +112,18 @@ nav p {
 
 .gray{
 	background: #b7b7b7;
+	padding: 40px;
+	color: white;
+}
+
+.gray p{
+	color:white;
+}
+
+.img-skew {
+	background-image: url(./../cut/skew_img.png);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	margin-left: -1px;
 }
