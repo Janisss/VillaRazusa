@@ -114,6 +114,18 @@ nav p {
 	background: #b7b7b7;
 	padding: 40px;
 	color: white;
+	min-height: 250px;
+	font-weight: 200;
+	font-style: italic;
+}
+
+.gray-b{
+	background: url(../cut/skew_img2.png);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	margin-left: -1px;
+	min-height: 250px;
 }
 
 .gray p{
@@ -126,4 +138,16 @@ nav p {
 	background-position: center;
 	position: relative;
 	margin-left: -1px;
+	min-height: 250px;
+}
+
+.img-skew-b {
+	background: #FAFAFA;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	padding: 40px;
+	min-height: 250px;
+	font-weight: 200;
+	font-style: italic;
 }
