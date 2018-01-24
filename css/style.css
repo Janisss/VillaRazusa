@@ -110,7 +110,7 @@ nav p {
 }
 
 .gray{
-	clip-path: polygon(0 0, 100% 0, 59% 100%, 0% 100%);
+	/*clip-path: polygon(0 0, 100% 0, 59% 100%, 0% 100%);*/
 	overflow: visible;
 	background: #b7b7b7;
 	padding: 40px;
