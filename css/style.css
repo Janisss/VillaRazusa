@@ -109,45 +109,83 @@ nav p {
   background: red;
 }
 
+/*class element_right sluzi ako neviditelny polygon okolo ktoreho obteka text*/
+.element_right {
+  float: right;
+  box-sizing: border-box;
+  shape-outside: polygon(100% 0%, 100% 100%, 0% 100%);
+  -webkit-clip-path: polygon(100% 0%, 100% 100%, 0% 100%);
+  width: 100px;
+  height: 200px;
+  /*background-color: firebrick;*/
+}
 
-.gray{
+/*class element_left sluzi ako neviditelny polygon okolo ktoreho obteka text*/
+.element_left {
+  float: left;
+  box-sizing: border-box;
+  shape-outside: polygon(100% 0, 0 100%, 0 75%);
+  -webkit-clip-path: polygon(100% 0, 0 100%, 0 75%);
+  width: 100px;
+  height: 200px;
+  /*background-color: firebrick;*/
+}
+
+.part{
+	margin-right: -4.3%;
+	margin-left: -3.2%;
+}
+.part_text_right p{
+	color: white
+}
+
+.part_text_right{
+	shape-outside: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
+	-webkit-clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
+	overflow: visible;
 	background: #b7b7b7;
 	padding: 40px;
-	color: white;
 	min-height: 250px;
 	font-weight: 200;
 	font-style: italic;
+	margin-left: 3%;
+	margin-right: -7%;
+	padding-right: -0.5%
 }
 
-.gray-b{
-	background: url(../cut/skew_img2.png);
+.part_img_left{
+	background-image: url(./../cut/gallery_images/gallery_image6.png);
+	shape-outside: polygon(20% 0, 100% 0, 100% 100%, 0% 100%);
+	-webkit-clip-path: polygon(20% 0, 100% 0, 100% 100%, 0% 100%);
 	background-size: cover;
 	background-position: center;
 	position: relative;
-	margin-left: -1px;
 	min-height: 250px;
+	
 }
 
-.gray p{
-	color:white;
-}
-
-.img-skew {
-	background-image: url(./../cut/skew_img.png);
-	background-size: cover;
-	background-position: center;
-	position: relative;
-	margin-left: -1px;
-	min-height: 250px;
-}
-
-.img-skew-b {
+.part_text_left{
+	shape-outside: polygon(20% 0, 100% 0, 100% 100%, 0% 100%);
+	-webkit-clip-path: polygon(20% 0, 100% 0, 100% 100%, 0% 100%);
+	overflow: visible;
 	background: #FAFAFA;
 	background-size: cover;
 	background-position: center;
-	position: relative;
 	padding: 40px;
 	min-height: 250px;
 	font-weight: 200;
 	font-style: italic;
+}
+
+.part_img_right{
+	background-image: url(./../cut/gallery_images/gallery_image5.png);
+	shape-outside: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
+	-webkit-clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	min-height: 250px;
+	margin-left: 3%;
+	margin-right: -7%;
+	padding-right: -0.5%
 }
