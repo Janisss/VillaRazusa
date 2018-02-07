@@ -22,9 +22,10 @@ nav p {
 }
 
 .container{
-	padding-right: 0 !important;
-	padding-left: 0 !important;
+	padding-right: 0;
+	padding-left: 0;
 }
+
 .parallelogram:hover{
 	background-color: white;
 }
