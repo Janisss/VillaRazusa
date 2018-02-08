@@ -21,6 +21,11 @@ nav p {
 	font-size: 1.1rem;
 }
 
+li.nav-item.col-sm-3{
+	padding-right: 0 !important;
+	padding-left: 0 !important;
+}
+
 .container{
 	padding-right: 0;
 	padding-left: 0;
